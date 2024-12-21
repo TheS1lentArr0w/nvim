@@ -23,3 +23,5 @@ require("paulo.remap")
 -- [[ Lazy Setup ]]
 require('lazy').setup('plugins')
 
+-- Sets
+require("paulo.set")
