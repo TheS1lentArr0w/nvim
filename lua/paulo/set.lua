@@ -38,3 +38,6 @@ vim.opt.updatetime = 50
 
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
+
+-- Change visual selection highlight colour
+vim.cmd [[highlight Visual guibg=#44475a]]
