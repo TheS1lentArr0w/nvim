@@ -1,3 +1,3 @@
 # Prerequisites
-Install nvim
-Install ripgrep
+- Install nvim
+- Install ripgrep
