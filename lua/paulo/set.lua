@@ -42,5 +42,6 @@ vim.opt.isfname:append("@-@")
 -- Change visual selection highlight colour
 vim.cmd [[highlight Visual guibg=#44475a]]
 
--- Disable mouse
-vim.o.mouse = ""
+-- Set mouse off
+vim.opt.mouse = ""
+
