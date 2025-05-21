@@ -33,3 +33,9 @@ autocmd('LspAttach', {
         vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts)
     end
 })
+
+vim.o.autoread = true
+vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+  command = "if mode() != 'c' | checktime | endif",
+  pattern = { "*" },
+})
