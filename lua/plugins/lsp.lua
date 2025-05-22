@@ -34,6 +34,7 @@ return {
                 "lua_ls",
                 "rust_analyzer",
                 "ts_ls",
+                "intelephense",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
