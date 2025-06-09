@@ -34,6 +34,8 @@ return {
                 "lua_ls",
                 "ts_ls",
                 "intelephense",
+                "gopls",
+                "html",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
