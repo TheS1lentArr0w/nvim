@@ -36,6 +36,7 @@ return {
                 "intelephense",
                 "gopls",
                 "html",
+                "bashls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
