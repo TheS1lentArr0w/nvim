@@ -37,6 +37,7 @@ return {
                 "gopls",
                 "html",
                 "bashls",
+                "jsonls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
