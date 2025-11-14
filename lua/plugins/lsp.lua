@@ -38,6 +38,8 @@ return {
                 "html",
                 "bashls",
                 "jsonls",
+                "prettier",
+                "yamlls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
