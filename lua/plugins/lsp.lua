@@ -38,7 +38,6 @@ return {
                 "html",
                 "bashls",
                 "jsonls",
-                "prettier",
                 "yamlls",
             },
             handlers = {
