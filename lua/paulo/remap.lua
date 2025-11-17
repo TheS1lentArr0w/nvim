@@ -31,7 +31,7 @@ vim.keymap.set({"n", "v"}, "<leader>d", "\"_d")
 -- Gets rid of Shift+q
 vim.keymap.set("n", "Q", "<nop>")
 
--- Highlights current word and allows to relpace throughout entire file
+-- Highlights current word and allows to replace throughout entire file
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- Turns current file executable to avoid going out and chmodding it manually
