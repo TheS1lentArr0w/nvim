@@ -18,6 +18,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- Keeps cursor in middle while searching through file
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+-- Keeps cursor in middle when jumping to line
+vim.keymap.set("n", "G", "Gzz")
 
 -- Allows you to paste over current selection and keep previously yanked
 vim.keymap.set("x", "<leader>p", [["_dP]])
