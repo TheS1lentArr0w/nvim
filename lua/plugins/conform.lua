@@ -17,6 +17,7 @@ return {
                 yaml = { "prettier" },
                 javascriptreact = { "prettier" },
                 typescriptreact = { "prettier" },
+                xml = { "xmlformatter" },
             },
         })
 

@@ -39,6 +39,9 @@ return {
                 "bashls",
                 "jsonls",
                 "yamlls",
+                "eslint",
+                "prettier",
+                "xmlformatter",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
