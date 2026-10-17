@@ -81,6 +81,25 @@ return {
             }
         })
 
+        local lspconfig = require("lspconfig")
+
+        lspconfig.sourcekit.setup({
+            capabilities = vim.tbl_deep_extend("force", capabilities, {
+                workspace = {
+                    didChangeWatchedFiles = { dynamicRegistration = true },
+                },
+            }),
+            cmd = { vim.trim(vim.fn.system("xcrun --find sourcekit-lsp")) },
+            filetypes = { "swift" },
+            root_dir = lspconfig.util.root_pattern(
+                "buildServer.json",
+                "*.xcodeproj",
+                "*.xcworkspace",
+                "Package.swift",
+                ".git"
+            ),
+        })
+
         local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
         cmp.setup({
