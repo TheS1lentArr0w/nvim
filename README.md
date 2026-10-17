@@ -2,6 +2,7 @@
 
 - Install nvim
 - Install ripgrep
+- (Xcode specific) xcode-build-server
 
 ## LSP Specific guidance
 
