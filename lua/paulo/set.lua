@@ -40,7 +40,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 -- Change visual selection highlight colour
-vim.cmd [[highlight Visual guibg=#44475a]]
+vim.cmd [[highlight Visual guibg=#44475a guifg=#ffaf87 gui=bold]]
 
 -- Set mouse off
 vim.opt.mouse = ""
